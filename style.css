@@ -1,0 +1,128 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+header {
+  width: 100%;
+  min-height:calc(100vh - 52px);
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+  
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+.smallLogo {
+	width: 30px;
+	height: 30px;
+}
+
+.mainLogo{
+	width: 350px;
+	height: 90px;
+}
+
+.mainLogo2{
+	width: 350px;
+	height: 90px;
+}
+
+.profilePic{
+	width: 75%;
+	height: 75%;
+	padding-bottom: 10px;
+}
+
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+    background-color: #373C42;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.userData {
+	background-color: #E7362C;
+	text-align: center;
+	color:white;
+	padding-top: 20px;
+	padding-bottom: 50px
+}
+
+#userDataCollapsed_parent{
+  text-align:right;
+  width: 100%;
+}
+.formLog {
+	padding:30px 22px;
+}
+
+.list-group-item {
+	background-color: #E7362C;
+}
+
+.btnLog {
+	margin-top: 20px;
+	width: 60%;
+}
+
+.labelLog {
+	width: 35%;
+}
+
+.labelLog span {
+	width: 100%;
+}
+
+.logLogo{
+	margin-right: 10px;
+}
+
+.btnAdd {
+    float:right;
+    padding: 20px;
+}
+
+.formProp{ 
+  margin-top: 30px; 
+}
+
+.propBlock{
+	margin: 10px;
+  	width: 80%;
+  	padding: 20px;   
+}
+
+.propBlocks{
+  	background-color: #f2f2f2;
+  	color: black;
+	margin: 10px;
+  	width: 80%;
+  	padding: 10px;   
+}
+
+
+.mainText{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+

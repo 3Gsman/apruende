@@ -1,0 +1,23 @@
+Bienvenido al codigo de apruende.
+
+Para su funcionamiento es necesario una base de datos. Se adjunta junto al codigo
+una carpeta llamada SQL donde se encuentra el codigo de la base de datos.
+Como no se ha comprobado su funcionamiento a nivel local, los alumnos Luis Ferrer
+y German Garcia, autorizan el acceso a la base de datos por medio del usuario y 
+contrasena que se encuentran en db.php si el acceso es meramente de nivel
+evaluatorio.
+
+La estructura de archivos está dividida de la siguiente forma: 
+
+Existen 4 carpetas dentro del proyecto, más varios archivos en el directorio principal. Estos archivos son tanto html como php y representan el apartado estético de la aplicación, corresponden a todas las ventanas. Algunos ejemplos pueden ser: impartidas.php, index.php, propuestaForm.php, talleres.php… entre otros. En este directorio también podemos encontrar un único archivo CSS, donde gestionamos la apariencia del código html.
+
+Las cuatro carpetas contienen los siguientes documentos:
+	-img: almacena todas las imágenes que usa la web. Como pueden ser logos, las imágenes del carrusel, etc…
+	-js: contiene un archivo JavaScript.
+	-PHP: contiene todos los archivos PHP que no están relacionados con el apartado visual estructural de la web. Contiene llamadas a base de datos, gestión de las sesiones, etc.
+    -uploads: en esta carpeta se almacenan las fotos de perfil de los usuarios.
+    
+
+Autores: Luis Ferrer y German Garcia
+
+25/01/2019
